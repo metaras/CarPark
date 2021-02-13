@@ -69,9 +69,18 @@ body{
     font-size: 200%;
 }
 
-/* .row {
+.carpark-block-true {
     padding-right: 15px;
-    background-color: #62b750;
-    border: 2px solid #101010;
+    background-image: linear-gradient(90deg, #aae5b7, rgb(58, 229, 87));
+    /*border: 2px solid #101010;*/
     text-align: center;
-} */
+    border-radius: 5px;
+}
+
+.carpark-block-false {
+    padding-right: 15px;
+    background-image: linear-gradient(90deg, #db887b, rgb(219, 88, 46));
+    /*border: 2px solid #101010;*/
+    text-align: center;
+    border-radius: 5px;
+}
