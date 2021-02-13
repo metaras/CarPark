@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    font-family: Montserrat;
+}
+
+#title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.row {
+    padding-right: 15px;
+    background-color: #62b750;
+    border: 2px solid #101010;
+    text-align: center;
+}
