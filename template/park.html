@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -21,8 +23,8 @@
         </div>
         <div id="main">
             <div class="row">
-                <div class="total-card col-md-3 ">
-                    <p>total time</p>
+                <div class="total-card col-md-3" id="app">
+                    <!-- <script src="../static/js/data.js"></script> -->
                     <p>total money</p>
                     <button class="btn mt-3 mb-3">Purchase</button>
                 </div>
@@ -42,6 +44,19 @@
                     <button class="btn mt-3 mb-3">Purchase</button>
                 </div>
             </div>
+            <!-- thiw below part have to add condition for check the in-out of the car in the car parking. -->
+            <!-- {% if *x and x==1 %}
+            <div class="carpark-block-true col-md-3" id="app">
+                <br />
+                <p>time</p>
+            </div>
+            {% else if !*x and x==1 %}
+            <div class="carpark-block-false col-md-3" id="app">
+                <br />
+                <p>time</p>
+            </div>
+            {% endif %} -->
+
             <div class="row">
                 <div class="carpark-block col-md-3">
                     <br />
@@ -63,8 +78,12 @@
                     <p>time</p>
                 </div>
             </div>
+            <div class="chart-card" id="graph">
+            </div>
         </div>
     </div>
+    <script src="../static/js/data.js"></script>
+    <script src="../static/js/graph.js"></script>
 </body>
 
 </html>

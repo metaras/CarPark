@@ -69,9 +69,33 @@ body{
     font-size: 200%;
 }
 
-/* .row {
-    padding-right: 15px;
-    background-color: #62b750;
-    border: 2px solid #101010;
+.chart-card {
+    height: 150px;
+    width: 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, blue, rgb(158, 158, 247));
     text-align: center;
-} */
+    margin: auto;
+    padding: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.carpark-block-true {
+    padding-right: 15px;
+    background-image: linear-gradient(90deg, #aae5b7, rgb(58, 229, 87));
+    /*border: 2px solid #101010;*/
+    text-align: center;
+    border-radius: 5px;
+}
+
+.carpark-block-false {
+    padding-right: 15px;
+    background-image: linear-gradient(90deg, #db887b, rgb(219, 88, 46));
+    /*border: 2px solid #101010;*/
+    text-align: center;
+    border-radius: 5px;
+}
