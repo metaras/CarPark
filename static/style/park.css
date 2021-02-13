@@ -1,0 +1,62 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    /* background-image: linear-gradient(45deg, blue, rgb(158, 158, 247)); */
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    background-size: cover;
+}
+
+#header {
+    height: 50px;
+    width: 520;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 5px;
+    /* background-color: white; */
+    background-image: linear-gradient(45deg, blue, rgb(158, 158, 247));
+}
+
+#main{
+    max-width: 500;
+    background-image: linear-gradient(45deg, rgb(158, 158, 247), blue);
+    /* background-color: white; */
+}
+
+.total-card {
+    height: 150px;
+    width: 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, blue, rgb(158, 158, 247));
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background-image: linear-gradient(120deg, #031b88, #2c6ed5);
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(30deg, #2c6ed5, #031b88);
+    border: 1px solid;
+    color: white;
+}
